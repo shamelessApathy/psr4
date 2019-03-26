@@ -1,0 +1,19 @@
+{
+    "name": "root/psr4",
+    "authors": [
+        {
+            "name": "shamelessApathy",
+            "email": "bcm811@gmail.com"
+        }
+    ],
+    "require": {
+    	"symfony/validator":	"2.1.*"
+    },
+    "autoload": {
+    	"psr-4":{
+    		"Controller\\":"Controller/",
+    		"Model\\":"Model/",
+    		"View\\":"View/"
+    	}
+    }
+}
